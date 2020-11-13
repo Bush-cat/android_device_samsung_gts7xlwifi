@@ -6,9 +6,6 @@
 
 DEVICE_PATH := device/samsung/y2qdcmw
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := y2qdcmw
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
