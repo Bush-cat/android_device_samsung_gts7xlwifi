@@ -41,11 +41,11 @@ void vendor_load_properties()
 {
     std::string bootloader = GetProperty("ro.bootloader", "");
 
-    if (bootloader.find("SC52A") == 0) {
-        property_override("ro.build.description", "y2qdcmw-user 11 RP1A.200720.012 SC52AOMU1BUC7 release-keys");
-        set_ro_build_prop("fingerprint", "samsung/SC-52A/SC-52A:11/RP1A.200720.012/SC52AOMU1BUC7:user/release-keys");
-        set_ro_product_prop("model", "SC-52A");
-        set_ro_product_prop("name", "y2qdcmw");
+    if (bootloader.find("T970") == 0) {
+        property_override("ro.build.description", "gts7xlwifi-user 11 RP1A.200720.012 T970XXS2BUC1 release-keys");
+        set_ro_build_prop("fingerprint", "samsung/gts7xlwifixx/gts7xlwifi:11/RP1A.200720.012/T970XXS2BUC1:user/release-keys");
+        set_ro_product_prop("model", "SM-T970");
+        set_ro_product_prop("name", "gts7xlwifi");
     }
 
     std::string device = GetProperty("ro.product.device", "");

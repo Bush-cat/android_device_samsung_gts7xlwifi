@@ -20,7 +20,6 @@ vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so
 
 # Camera
 vendor/lib/camera/com.qti.eeprom.truly_cmb433.so
-vendor/lib/camera/com.qti.tuned.default.bin
 vendor/lib/camera/com.samsung.sensor.hi847.so
 vendor/lib/camera/com.samsung.sensor.imx374.so
 vendor/lib/camera/com.samsung.sensor.imx516.so
@@ -36,21 +35,13 @@ vendor/lib/camera/com.samsung.sensor.s5k5e9yu05.so
 vendor/lib/camera/com.samsung.sensor.s5kgh1.so
 vendor/lib/camera/com.samsung.sensor.s5kgw2.so
 vendor/lib/camera/com.samsung.sensor.s5khm1.so
-vendor/lib/camera/com.samsung.sensormodule.0_0_sony_imx555.bin
-vendor/lib/camera/com.samsung.sensormodule.0_1_lsi_s5k2ld.bin
-vendor/lib/camera/com.samsung.sensormodule.1_0_sony_imx374.bin
-vendor/lib/camera/com.samsung.sensormodule.1_1_lsi_s5k3j1.bin
-vendor/lib/camera/com.samsung.sensormodule.2_lsi_s5k2la.bin
-vendor/lib/camera/com.samsung.sensormodule.3_lsi_s5kgw2.bin
-vendor/lib/camera/com.samsung.sensormodule.4_0_sony_imx518.bin
-vendor/lib/camera/com.samsung.sensormodule.4_1_sony_imx516.bin
-vendor/lib/camera/com.samsung.sensormodule.12_0_sony_imx374_full.bin
-vendor/lib/camera/com.samsung.sensormodule.12_1_lsi_s5k3j1_full.bin
-vendor/lib/camera/com.samsung.sensormodule.14_lsi_s5kgw2_binning.bin
-vendor/lib/camera/com.samsung.tuned.lsi_s5k2la.bin
-vendor/lib/camera/com.samsung.tuned.lsi_s5kgw2.bin
-vendor/lib/camera/com.samsung.tuned.sony_imx374.bin
-vendor/lib/camera/com.samsung.tuned.sony_imx555.bin
+vendor/lib/camera/com.samsung.sensormodule.0_lsi_s5k3m5
+vendor/lib/camera/com.samsung.sensormodule.12_lsi_s5k4ha_full.bin
+vendor/lib/camera/com.samsung.sensormodule.1_lsi_s5k4ha.bin
+vendor/lib/camera/com.samsung.sensormodule.2_lsi_s5k5e9yu05.bin
+vendor/lib/camera/com.samsung.tuned.lsi_s5k3m5.bin
+vendor/lib/camera/com.samsung.tuned.lsi_s5k4ha.bin
+vendor/lib/camera/com.samsung.tuned.lsi_s5k5e9yu05.bin
 vendor/lib/camera/fdconfigpreview.bin
 vendor/lib/camera/fdconfigpreviewlite.bin
 vendor/lib/camera/fdconfigvideo.bin
@@ -85,7 +76,6 @@ vendor/lib/camera/components/com.samsung.node.multi_frame_video_hdr.so
 vendor/lib/camera/components/com.samsung.node.realtimebokeh.so
 vendor/lib/camera/components/com.samsung.node.smooth_transition.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_capture.so
-vendor/lib/camera/components/com.samsung.node.uniplugin_depth.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_preview.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_vdis.so
@@ -97,9 +87,8 @@ vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/camera.unihal.default.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so
-vendor/lib/hw/vendor.samsung.hardware.snap@1.1-impl.so
+vendor/lib/hw/vendor.samsung.hardware.snap@1.2-impl.so
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
-vendor/lib64/camera/com.qti.tuned.default.bin
 vendor/lib64/camera/com.samsung.sensor.hi847.so
 vendor/lib64/camera/com.samsung.sensor.imx374.so
 vendor/lib64/camera/com.samsung.sensor.imx516.so
@@ -115,21 +104,13 @@ vendor/lib64/camera/com.samsung.sensor.s5k5e9yu05.so
 vendor/lib64/camera/com.samsung.sensor.s5kgh1.so
 vendor/lib64/camera/com.samsung.sensor.s5kgw2.so
 vendor/lib64/camera/com.samsung.sensor.s5khm1.so
-vendor/lib64/camera/com.samsung.sensormodule.0_0_sony_imx555.bin
-vendor/lib64/camera/com.samsung.sensormodule.0_1_lsi_s5k2ld.bin
-vendor/lib64/camera/com.samsung.sensormodule.1_0_sony_imx374.bin
-vendor/lib64/camera/com.samsung.sensormodule.1_1_lsi_s5k3j1.bin
-vendor/lib64/camera/com.samsung.sensormodule.2_lsi_s5k2la.bin
-vendor/lib64/camera/com.samsung.sensormodule.3_lsi_s5kgw2.bin
-vendor/lib64/camera/com.samsung.sensormodule.4_0_sony_imx518.bin
-vendor/lib64/camera/com.samsung.sensormodule.4_1_sony_imx516.bin
-vendor/lib64/camera/com.samsung.sensormodule.12_0_sony_imx374_full.bin
-vendor/lib64/camera/com.samsung.sensormodule.12_1_lsi_s5k3j1_full.bin
-vendor/lib64/camera/com.samsung.sensormodule.14_lsi_s5kgw2_binning.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_s5k2la.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_s5kgw2.bin
-vendor/lib64/camera/com.samsung.tuned.sony_imx374.bin
-vendor/lib64/camera/com.samsung.tuned.sony_imx555.bin
+vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5k3m5
+vendor/lib64/camera/com.samsung.sensormodule.12_lsi_s5k4ha_full.bin
+vendor/lib64/camera/com.samsung.sensormodule.1_lsi_s5k4ha.bin
+vendor/lib64/camera/com.samsung.sensormodule.2_lsi_s5k5e9yu05.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_s5k3m5.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_s5k4ha.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_s5k5e9yu05.bin
 vendor/lib64/camera/f_dual_calibration.bin
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
@@ -169,7 +150,6 @@ vendor/lib64/camera/components/com.samsung.node.multi_frame_video_hdr.so
 vendor/lib64/camera/components/com.samsung.node.realtimebokeh.so
 vendor/lib64/camera/components/com.samsung.node.smooth_transition.so
 vendor/lib64/camera/components/com.samsung.node.uniplugin_capture.so
-vendor/lib64/camera/components/com.samsung.node.uniplugin_depth.so
 vendor/lib64/camera/components/com.samsung.node.uniplugin_preview.so
 vendor/lib64/camera/components/com.samsung.node.uniplugin_recording.so
 vendor/lib64/camera/components/com.samsung.node.uniplugin_vdis.so
@@ -182,14 +162,14 @@ vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/camera.unihal.default.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so
-vendor/lib64/hw/vendor.samsung.hardware.snap@1.1-impl.so
+vendor/lib64/hw/vendor.samsung.hardware.snap@1.2-impl.so
 
 # Fingerprint
 vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so
 
 # GPS
-vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
-vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
+vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 
 # Keystore
 vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti
@@ -216,18 +196,13 @@ vendor/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so
 vendor/etc/sensors/config/ak991x_dri_0.json
 vendor/etc/sensors/config/ak991x_polling_0.json
 vendor/etc/sensors/config/kona_ak991x_0.json
-vendor/etc/sensors/config/kona_ak991x_4.json
-vendor/etc/sensors/config/kona_ak991x_13.json
+vendor/etc/sensors/config/kona_ak991x_2.json
+vendor/etc/sensors/config/kona_ak991x_6.json
 vendor/etc/sensors/config/kona_default_sensors.json
 vendor/etc/sensors/config/kona_irq.json
-vendor/etc/sensors/config/kona_lps22hh_0.json
 vendor/etc/sensors/config/kona_lsm6dso_0_0.json
-vendor/etc/sensors/config/kona_lsm6dso_0_2.json
-vendor/etc/sensors/config/kona_lsm6dso_0_4.json
 vendor/etc/sensors/config/kona_power_0.json
 vendor/etc/sensors/config/kona_qrd_lsm6dso_0.json
-vendor/etc/sensors/config/kona_tmd4907_0.json
-vendor/etc/sensors/config/lps22hh_0.json
 vendor/etc/sensors/config/lsm6dso_0.json
 vendor/etc/sensors/config/lsm6dso_0_8g.json
 vendor/etc/sensors/config/pah_8011_0_platform.ppg_enable_ex_1.json

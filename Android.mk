@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),y2qdcmw)
+ifeq ($(TARGET_DEVICE),gts7xlwifi)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

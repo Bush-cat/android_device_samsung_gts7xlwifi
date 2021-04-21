@@ -13,8 +13,8 @@ fi
 
 set -e
 
-export DEVICE=y2qdcmw
-export DEVICE_COMMON=sm8250-common
+export DEVICE=gts7xlwifi
+export DEVICE_COMMON=gts7-common
 export VENDOR=samsung
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

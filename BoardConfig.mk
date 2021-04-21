@@ -5,9 +5,9 @@
 #
 
 # Inherit common board flags
--include device/samsung/sm8250-common/BoardConfigCommon.mk
+-include device/samsung/gts7-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/y2qdcmw
+DEVICE_PATH := device/samsung/gts7xlwifi
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
@@ -16,10 +16,10 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # INIT
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_y2qdcmw
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_gts7xlwifi
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/y2q_jpn_dcmw_defconfig
+TARGET_KERNEL_CONFIG := vendor/gts7xlwifi_eur_open_defconfig
 
 # Keystore
 TARGET_KEYMASTER_VARIANT := samsung
@@ -31,15 +31,15 @@ BOARD_SYSTEMIMAGE_PARTITION_RESERVED_SIZE := 1258291200
 BOARD_SYSTEM_EXTIMAGE_PARTITION_RESERVED_SIZE := 1258291200
 endif
 
-BOARD_SAMSUNG_DYNAMIC_PARTITIONS_SIZE := 8550088704
-BOARD_SUPER_PARTITION_SIZE := 8554283008
+BOARD_SAMSUNG_DYNAMIC_PARTITIONS_SIZE := 10171187200
+BOARD_SUPER_PARTITION_SIZE := 10171187200
 
 # Platform
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
 # Recovery
-TARGET_RECOVERY_DENSITY := xxhdpi
+TARGET_RECOVERY_DENSITY := xhdpi
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Inherit from proprietary vendor
--include vendor/samsung/y2qdcmw/BoardConfigVendor.mk
+-include vendor/samsung/gts7xlwifi/BoardConfigVendor.mk

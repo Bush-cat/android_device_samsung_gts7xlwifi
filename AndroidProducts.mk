@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_y2qdcmw.mk
+    $(LOCAL_DIR)/lineage_gts7xlwifi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_y2qdcmw-eng \
-    lineage_y2qdcmw-user \
-    lineage_y2qdcmw-userdebug
+    lineage_gts7xlwifi-eng \
+    lineage_gts7xlwifi-user \
+    lineage_gts7xlwifi-userdebug

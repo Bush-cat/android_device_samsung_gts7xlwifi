@@ -15,11 +15,11 @@
 //
 
 cc_library_static {
-    name: "libinit_y2qdcmw",
+    name: "libinit_gts7xlwifi",
     recovery_available: true,
-    srcs: ["init_y2qdcmw.cpp"],
+    srcs: ["init_gts7xlwifi.cpp"],
     include_dirs: [
-        "device/samsung/sm8250-common/init",
+        "device/samsung/gts7-common/init",
         "external/fmtlib/include",
         "system/core/base/include",
         "system/core/init",
