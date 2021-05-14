@@ -32,6 +32,13 @@ on post-fs
     chown radio system /efs/carrier
     chown radio system /efs/carrier/HiddenMenu
 
+#mDNIe
+    mkdir /efs/afc 0750 system system
+    chmod 750 /efs/afc
+    chown system system /dev/mafpc
+    chmod 0660 /dev/mafpc
+    exec - system system -- /system/bin/mafpc_write
+
 # Fingerprint sensor
     chmod 0660 /dev/goodix_fp
     chown system system /dev/goodix_fp
@@ -46,8 +53,9 @@ on post-fs
 
 on post-fs-data
     # Permission for UWB driver
-    chmod 0660 /dev/sr100
-    chown uwb uwb /dev/sr100
+    # disabled
+    # chmod 0660 /dev/sr100
+    # chown uwb uwb /dev/sr100
 
 # Cirrus Amp Calibration
     chown system audio /sys/class/cirrus/cirrus_cal/status
@@ -153,6 +161,7 @@ on init
     mkdir /dev/freezer/thaw
     write /dev/freezer/frozen/freezer.state FROZEN
     write /dev/freezer/thaw/freezer.state THAWED
+    write /dev/freezer/frozen/freezer.killable 1
 
 # MARs for freecess
     chown system system /dev/freezer
@@ -220,3 +229,28 @@ service pageboostd /system/bin/pageboostd
     group system mount radio net_bt sdcard_rw shell media media_rw
     socket pageboostd seqpacket 0660 system system
     disabled
+
+# HEIMDALL
+on early-init
+    chmod 0777 /dev/memcg
+    chown system system /dev/memcg
+service heimdalld /system/bin/heimdalld
+    class core
+    user system
+    group system readproc
+    capabilities NET_ADMIN SYS_NICE KILL CHOWN
+    oneshot
+
+# some priv-apps of SPR bind mount to TMB priv-apps
+on post-fs-data && property:ro.csc.sales_code=TMB
+    umount /system/carrier
+    mkdir /mnt/temp
+    mount none /system/carrier/SPR /mnt/temp bind
+    mount none /system/carrier/TMB /system/carrier bind
+    mount none /mnt/temp/priv-app/MobileID /system/carrier/priv-app/MobileID bind
+    mount none /mnt/temp/priv-app/CarrierDeviceManager /system/carrier/priv-app/CarrierDeviceManager bind
+    mount none /mnt/temp/priv-app/MobileInstaller /system/carrier/priv-app/MobileInstaller bind
+    mount none /mnt/temp/priv-app/SprintAndroidExtension2 /system/carrier/priv-app/SprintAndroidExtension2 bind
+    mount none /mnt/temp/priv-app/SprintHub /system/carrier/priv-app/SprintHub bind
+    umount /mnt/temp
+    rmdir /mnt/temp
