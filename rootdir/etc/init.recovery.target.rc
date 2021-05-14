@@ -1,2 +1,2 @@
 on init
-    setprop ro.sf.lcd_density 266
+    setprop ro.sf.lcd_density 200
