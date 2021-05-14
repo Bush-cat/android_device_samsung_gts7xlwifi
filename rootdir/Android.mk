@@ -1,18 +1,9 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE           := fstab.qcom.ramdisk
-LOCAL_MODULE_STEM      := fstab.qcom
-LOCAL_MODULE_TAGS      := optional
-LOCAL_MODULE_CLASS     := ETC
-LOCAL_SRC_FILES        := etc/fstab.qcom
-LOCAL_MODULE_PATH      := $(TARGET_RAMDISK_OUT)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE           := init.recovery.target.rc
-LOCAL_MODULE_TAGS      := optional
-LOCAL_MODULE_CLASS     := ETC
-LOCAL_SRC_FILES        := etc/init.recovery.target.rc
-LOCAL_MODULE_PATH      := $(TARGET_ROOT_OUT)
+LOCAL_MODULE       := init.gts7xlwifi.rc
+LOCAL_MODULE_TAGS  := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_SRC_FILES    := etc/init.gts7xlwifi.rc
+LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_ETC)/init/hw
 include $(BUILD_PREBUILT)

@@ -28,8 +28,7 @@ TARGET_USES_QTI_MAPPER_EXTENSIONS_1_1 := true
 
 # Device init scripts
 PRODUCT_PACKAGES += \
-    fstab.qcom \
-    init.recovery.target.rc
+    init.gts7xlwifi.rc
 
 # Keystore
 PRODUCT_PACKAGES += \
