@@ -29,6 +29,7 @@ TARGET_USES_QTI_MAPPER_EXTENSIONS_1_1 := true
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.gts7xlwifi.rc
+    init.recovery.target.rc
 
 # Keystore
 PRODUCT_PACKAGES += \
