@@ -54,8 +54,10 @@ endif
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
 # Recovery
-TARGET_RECOVERY_DENSITY := xhdpi
-# TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+# ianmacd/twrp_gts7xl
+TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
+# gts7xl
+# TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 
 # Inherit from proprietary vendor
 -include vendor/samsung/gts7xlwifi/BoardConfigVendor.mk
