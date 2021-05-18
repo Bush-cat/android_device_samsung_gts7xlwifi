@@ -9,6 +9,9 @@
 
 DEVICE_PATH := device/samsung/gts7xlwifi
 
+# Board
+BOARD_BOOT_HEADER_NAME := SRPTD21A002
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
