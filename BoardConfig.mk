@@ -25,7 +25,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_gts7xlwifi
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/gts7xlwifi_eur_open_custom_defconfig
+TARGET_KERNEL_CONFIG := vendor/gts7xlwifi_eur_open_defconfig
 
 # Keystore
 TARGET_KEYMASTER_VARIANT := samsung
