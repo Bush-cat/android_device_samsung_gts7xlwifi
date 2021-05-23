@@ -10,7 +10,7 @@
 DEVICE_PATH := device/samsung/gts7xlwifi
 
 # TWRP support for ianmacd/twrp_gts7xl
-TARGET_OTA_ASSERT_DEVICE := gts7xl,gts7xlxx,gts7xlxxx,gts7xlwifi,gts7xlwifixx
+TARGET_OTA_ASSERT_DEVICE := gts7xl,gts7xlwifi,gts7xlwifixx
 
 # Board
 BOARD_BOOT_HEADER_NAME := SRPTD21A002
