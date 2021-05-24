@@ -45,7 +45,8 @@ TARGET_KERNEL_CONFIG := vendor/gts7xlwifi_eur_open_defconfig
 TARGET_KEYMASTER_VARIANT := samsung
 
 # Platform
-TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
+# Fingerprint - TODO
+# TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
 # Recovery
 # ianmacd/twrp_gts7xl
