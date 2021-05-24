@@ -31,6 +31,13 @@ PRODUCT_PACKAGES += \
     init.gts7xlwifi.rc \
     init.recovery.target.rc
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.samsung
+
+PRODUCT_COPY_FILES += \
+    vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+
 # Keystore
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service.samsung
