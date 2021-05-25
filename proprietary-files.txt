@@ -169,6 +169,7 @@ vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so
 
 # GPS
 vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 
 # Keystore
