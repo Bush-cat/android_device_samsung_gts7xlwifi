@@ -167,6 +167,10 @@ vendor/lib64/hw/vendor.samsung.hardware.snap@1.2-impl.so
 # Fingerprint
 vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so
 
+# Display calibration data
+vendor/etc/qdcm_calib_data_ss_dsi_panel_S6TUUM2_AMSA24VU01_WQXGA.xml
+vendor/etc/qdcm_calib_data_ss_dsi_panel_S6TUUM3_AMSA24VU01_WQXGA.xml
+
 # GPS
 vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
