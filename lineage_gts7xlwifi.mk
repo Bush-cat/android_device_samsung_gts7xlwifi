@@ -17,6 +17,7 @@ $(call inherit-product, device/samsung/gts7xlwifi/device.mk)
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_gts7xlwifi
 PRODUCT_DEVICE := gts7xlwifi
+PRODUCT_MANUFACTURER := samsung
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T970
 PRODUCT_PDA_MODEL_NEW := T970
