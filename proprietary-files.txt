@@ -35,7 +35,7 @@ vendor/lib/camera/com.samsung.sensor.s5k5e9yu05.so
 vendor/lib/camera/com.samsung.sensor.s5kgh1.so
 vendor/lib/camera/com.samsung.sensor.s5kgw2.so
 vendor/lib/camera/com.samsung.sensor.s5khm1.so
-vendor/lib/camera/com.samsung.sensormodule.0_lsi_s5k3m5
+vendor/lib/camera/com.samsung.sensormodule.0_lsi_s5k3m5.bin
 vendor/lib/camera/com.samsung.sensormodule.12_lsi_s5k4ha_full.bin
 vendor/lib/camera/com.samsung.sensormodule.1_lsi_s5k4ha.bin
 vendor/lib/camera/com.samsung.sensormodule.2_lsi_s5k5e9yu05.bin
@@ -104,7 +104,7 @@ vendor/lib64/camera/com.samsung.sensor.s5k5e9yu05.so
 vendor/lib64/camera/com.samsung.sensor.s5kgh1.so
 vendor/lib64/camera/com.samsung.sensor.s5kgw2.so
 vendor/lib64/camera/com.samsung.sensor.s5khm1.so
-vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5k3m5
+vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5k3m5.bin
 vendor/lib64/camera/com.samsung.sensormodule.12_lsi_s5k4ha_full.bin
 vendor/lib64/camera/com.samsung.sensormodule.1_lsi_s5k4ha.bin
 vendor/lib64/camera/com.samsung.sensormodule.2_lsi_s5k5e9yu05.bin
@@ -172,7 +172,6 @@ vendor/etc/qdcm_calib_data_ss_dsi_panel_S6TUUM2_AMSA24VU01_WQXGA.xml
 vendor/etc/qdcm_calib_data_ss_dsi_panel_S6TUUM3_AMSA24VU01_WQXGA.xml
 
 # GPS
-vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 
@@ -244,9 +243,7 @@ vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
-vendor/lib/sensors.flicker.so
 vendor/lib/sensors.grip.so
 vendor/lib/sensors.ssc.so
-vendor/lib64/sensors.flicker.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.ssc.so
